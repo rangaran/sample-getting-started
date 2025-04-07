@@ -46,7 +46,7 @@ public class CustomConfigSource implements ConfigSource {
 
   @Override
   public String getName() {
-    return "Custom Config Source: file:" + this.fileLocation;
+    return "Custom Config Source: file-" + this.fileLocation;
   }
 
   public Map<String, String> getProperties() {
